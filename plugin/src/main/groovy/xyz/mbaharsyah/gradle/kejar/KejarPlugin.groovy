@@ -4,6 +4,9 @@ import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.api.tasks.Copy;
 
+/**
+ * @author mbaharsyah
+ */
 class KejarPlugin implements Plugin<Project> {
     @Override
     def void apply(Project project) {
